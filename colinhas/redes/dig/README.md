@@ -18,6 +18,10 @@ Comando `dig`.
 
 `dig +short example.com AAAA`
 
+Ou:
+
+`dig +short -t AAAA example.com`
+
 ## Especificar um servidor de DNS
 
 `dig +short @8.8.8.8 example.com`
@@ -33,6 +37,7 @@ Comando `dig`.
 * `-f`: Especificar um arquivo contendo domínios a serem procurados.
 * `-p`: Especificar a porta do servidor DNS.
 * `-r`: **Não** ler configurações do arquivo `.digrc`.
+* `-t`: Especificar o tipo de registro a ser consultado.
 * `-x`: Efetuar busca reversa, mapeando endereços IP para nomes.
 
 ## Opções de exibição
