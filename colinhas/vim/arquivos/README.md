@@ -2,31 +2,31 @@
 
 ## Abrir
 
-| Comando            | Função                                                                                           |
-| ------------------ | ------------------------------------------------------------------------------------------------ |
-| `:vi <arquivo>`    | abrir aquivo (funciona desde que o arquivo atual não tenha modificações não salvas)              |
-| `:e <arquivo>`     | (o mesmo)                                                                                        |
-| `:vi! <arquivo>`   | forçar abrir (fecha o arquivo atual e descarta as alteraç ões)                                   |
-| `:e! <arquivo>`    | (o mesmo)                                                                                        |
-| `:view  <arquivo>` | abrir como somente leitura (o mesmo que o comando `vi`, mas abre o arquivo como somente leitura) |
-| `:read <arquivo>`  | ler arquivo e inserir seu conteúdo após a linha atual                                            |
+| Comando      | Função                                                                                                |
+| ------------ | ----------------------------------------------------------------------------------------------------- |
+| `:vi <a>`    | abrir aquivo \<a> (funciona desde que o arquivo atual não tenha modificações não salvas)              |
+| `:e <a>`     | (o mesmo)                                                                                             |
+| `:vi! <a>`   | forçar abrir o arquivo \<a> (fecha o arquivo atual e descarta as alterações)                          |
+| `:e! <a>`    | (o mesmo)                                                                                             |
+| `:view  <a>` | abrir como somente leitura (o mesmo que o comando `vi`, mas abre o arquivo \<a> como somente leitura) |
+| `:read <a>`  | ler arquivo \<a> e inserir seu conteúdo após a linha atual                                            |
 
 ## Salvar
 
 Comandos:
 
-| Comando             | Função                                                                                                   |
-| ------------------- | -------------------------------------------------------------------------------------------------------- |
-| `:write`            | salvar                                                                                                   |
-| `:w`                | (o mesmo)                                                                                                |
-| `:write!`           | forçar salvar (força o salvamento de arquivo aberto como somente leitura)                                |
-| `:w!`               | (o mesmo)                                                                                                |
-| `:write <arquivo>`  | salvar como outro arquivo                                                                                |
-| `:w <arquivo>`      | (o mesmo)                                                                                                |
-| `:write! <arquivo>` | forçar salvar como (sobrescreve o arquivo atual)                                                         |
-| `:w! <arquivo>`     | forçar salvar como (sobrescreve o arquivo atual)                                                         |
-| `:preserve`         | salvar temporariamente (salva no swap, o arquivo é mantido até ser executado algum comando para salvar)  |
-| `:wq`               | salvar e sair                                                                                            |
+| Comando       | Função                                                                                                   |
+| ------------- | -------------------------------------------------------------------------------------------------------- |
+| `:write`      | salvar                                                                                                   |
+| `:w`          | (o mesmo)                                                                                                |
+| `:write!`     | forçar salvar (força o salvamento de arquivo aberto como somente leitura)                                |
+| `:w!`         | (o mesmo)                                                                                                |
+| `:write <a>`  | salvar como arquivo \<a>                                                                                 |
+| `:w <a>`      | (o mesmo)                                                                                                |
+| `:write! <a>` | forçar salvar como \<a> (sobrescreve o arquivo atual)                                                    |
+| `:w! <a>`     | (o mesmo)                                                                                                |
+| `:preserve`   | salvar temporariamente (salva no swap, o arquivo é mantido até ser executado algum comando para salvar)  |
+| `:wq`         | salvar e sair                                                                                            |
 
 Atalhos:
 
