@@ -8,22 +8,22 @@ Inserção Simples:
 
 | Comando | Função |
 | ------- | ------ |
-| `i` | Entra em modo inserir antes do local atual do cursor | 
-| `a` | Entra em modo inserir após o local atual do cursor |
-| `I` | Entra em modo inserir no começo da linha atual |
-| `gI` | Entra em modo inserir na primeira coluna da linha atual |
-| `A` | Entra em modo inserir no final da linha atual |
-| `o` | Entra em modo inserir abrindo uma linha abaixo da linha atual |
-| `O` | Entra em modo inserir abrindo uma linha acima da linha atual |
+| `i` | Entrar em modo inserir antes do local atual do cursor | 
+| `a` | Entrar em modo inserir após o local atual do cursor |
+| `I` | Entrar em modo inserir no começo da linha atual |
+| `gI` | Entrar em modo inserir na primeira coluna da linha atual |
+| `A` | Entrar em modo inserir no final da linha atual |
+| `o` | Entrar em modo inserir abrindo uma linha abaixo da linha atual |
+| `O` | Entrar em modo inserir abrindo uma linha acima da linha atual |
 
 Substituição e Inserção:
 
 | Comando | Função |
 | ------- | ------ |
-| `s` | Entra em modo inserir, eliminando o caractere atual |
-| `c<m>` | Entra em modo inserir, eliminando do cursor até o local correspondente ao movimento <m>(1) |
-| `C` | Entra em modo inserir, eliminando do cursor até o final da linha |
-| `S` | Entra em modo inserir, eliminando toda a linha atual |
+| `s` | Entrar em modo inserir, eliminando o caractere atual |
+| `c<m>` | Entrar em modo inserir, eliminando do cursor até o local correspondente ao movimento <m>(1) |
+| `C` | Entrar em modo inserir, eliminando do cursor até o final da linha |
+| `S` | Entrar em modo inserir, eliminando toda a linha atual |
 | `cc` | (o mesmo) |
 
 (1) - Para maiores informações, ver a seção **Movimentos**
@@ -34,7 +34,7 @@ Ativa o cursor e inicia a substituição conforme os novos caracteres são digit
 
 | Comando | Função |
 | ------- | ------ |
-| `R` | Modo substituir a partir do local atual do cursor |
+| `R` | Entrar em modo substituir a partir do local atual do cursor |
 
 ### Modo Visual
 
