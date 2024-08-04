@@ -1,5 +1,55 @@
 # Vim - Geral
 
+## Alternar Modos
+
+### Modo Inserir
+
+Inserção Simples:
+
+| Comando | Função |
+| ------- | ------ |
+| `i` | Entra em modo inserir antes do local atual do cursor | 
+| `a` | Entra em modo inserir após o local atual do cursor |
+| `I` | Entra em modo inserir no começo da linha atual |
+| `gI` | Entra em modo inserir na primeira coluna da linha atual |
+| `A` | Entra em modo inserir no final da linha atual |
+| `o` | Entra em modo inserir abrindo uma linha abaixo da linha atual |
+| `O` | Entra em modo inserir abrindo uma linha acima da linha atual |
+
+Substituição e Inserção:
+
+| Comando | Função |
+| ------- | ------ |
+| `s` | Entra em modo inserir, eliminando o caractere atual |
+| `c<m>` | Entra em modo inserir, eliminando do cursor até o local correspondente ao movimento <m>(1) |
+| `C` | Entra em modo inserir, eliminando do cursor até o final da linha |
+| `S` | Entra em modo inserir, eliminando toda a linha atual |
+| `cc` | (o mesmo) |
+
+(1) - Para maiores informações, ver a seção **Movimentos**
+
+### Modo Substituir
+
+Ativa o cursor e inicia a substituição conforme os novos caracteres são digitados:
+
+| Comando | Função |
+| ------- | ------ |
+| `R` | Modo substituir a partir do local atual do cursor |
+
+### Modo Visual
+
+| Comando | Função |
+| ------- | ------ |
+| `v` | Selecionar caracteres no modo visual |
+| `SHIFT-v` | Selecionar linhas no modo visual |
+| `CTRL-v` | Selecionar blocos no modo visual |
+
+### Modo Normal
+
+| Comando | Função |
+| ------- | ------ |
+| `<ESC>` | Retornar ao modo normal |
+
 ## Sair
 
 | Comando | Função                                                |
