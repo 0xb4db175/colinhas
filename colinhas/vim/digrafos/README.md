@@ -2,11 +2,13 @@
 
 ## Comandos
 
-| `:digraphs` | Exibe os dígrafos atualmente definidos |
+| Comando | Função  |
+| - | - |
+| `:digraphs` | Exibir os dígrafos atualmente definidos |
 | `:dig` | (o mesmo) |
-| `:digraphs <c1><c2> <n>` | Adiciona o dígrafo `<c1><c2>` à lista associando-o ao caractere cuja representação **decimal** é `<n>` |
+| `:digraphs <c1><c2> <n>` | Adicionar o dígrafo `<c1><c2>` à lista associando-o ao caractere cuja representação **decimal** é `<n>` |
 | `:dig` | (o mesmo) |
-| `CTRL-K <c1><c2>` | Insere o caractere correspondente ao dígrafo `<c1><c2>` |
+| `CTRL-K <c1><c2>` | Inserir o caractere correspondente ao dígrafo `<c1><c2>` |
 
 ## Dígrafos Padrão
 
