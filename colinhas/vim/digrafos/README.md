@@ -9,6 +9,7 @@
 | `:digraphs <c1><c2> <n>` | Adicionar o dígrafo `<c1><c2>` à lista associando-o ao caractere cuja representação **decimal** é `<n>` |
 | `:dig` | (o mesmo) |
 | `CTRL-K <c1><c2>` | Inserir o caractere correspondente ao dígrafo `<c1><c2>` |
+| `ga` | Exibir o valor ASCII do caractere sob o cursor e também o dígrafo correspondente, se houver |
 
 ## Dígrafos Padrão
 
